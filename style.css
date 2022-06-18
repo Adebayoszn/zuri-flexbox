@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: hsl(0, 0%, 95%)
+}
+
+main {
+    margin: auto;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+
+}
+
+div {
+    padding: 2em;
+    text-align: left;
+    border-radius: 3px;
+
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* img{
+    width: 60px;
+    height: 40px;
+    padding-bottom: 70px;
+} */
+
+h2 {
+    padding-bottom: 10px;
+    padding-top: 30px;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display';
+}
+
+p {
+    padding-bottom: 40px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+    /* background-color:hsla(0, 0%, 100%, 0.75) ; */
+    color: hsl(31, 77%, 52%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: larger;
+    border: 5px solid hsl(184, 100%, 22%);
+    border-radius: 10px;
+    
+    
+
+
+}
+
+nav {
+    text-align: right;
+    width: 50%;
+    display: flex;
+
+
+}
+
+button {
+    padding: 7px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    border: none;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+
+}
+
+.suv {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+}
